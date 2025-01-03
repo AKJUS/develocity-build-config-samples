@@ -61,7 +61,7 @@
         <dependency>
             <groupId>com.gradle</groupId>
             <artifactId>develocity-maven-extension</artifactId>
-            <version>1.22.2</version>
+            <version>1.23</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -98,7 +98,7 @@
                 </executions>
                 <configuration>
                     <transformers>
-                        <transformer implementation="org.apache.maven.plugins.shade.resource.ComponentsXmlResourceTransformer" />
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ComponentsXmlResourceTransformer"/>
                     </transformers>
                 </configuration>
             </plugin>
